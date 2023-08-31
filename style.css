@@ -1,0 +1,522 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: auto;
+    height: 162px;
+    align-items: center;
+    text-align: center;
+    border: 2px solid black;
+    background-color: rgb(53, 160, 53);
+
+}
+
+.container li {
+    display: inline;
+    padding-top: 50px;
+    margin: 385px;
+    font-size: 100px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Dancing Script', cursive;
+
+}
+
+.container li a {
+    text-decoration: none;
+    color: white;
+
+}
+
+li:hover {
+    color: black;
+}
+
+a:hover {
+    color: black;
+    background-color: rgb(87, 182, 177);
+
+    border-radius: 20px;
+
+    transition: ease-in-out 0.5s;
+
+}
+
+/* this is for first section */
+
+.first::before {
+    content: "";
+    position: absolute;
+    height: 80%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+    background: url("mainpage.jpg") no-repeat center center/cover;
+}
+
+/* .first{
+
+    height: 80%;
+    width: 100%;
+    border: 2px solid red;
+}
+
+.second{
+
+    height: 100%;
+    width: 100%;
+    border: 2px solid red;
+} */
+.first h1 {
+
+    margin-left: 1477px;
+    font-size: 365px;
+    padding-top: 485px;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+}
+
+.first p {
+    /* margin-left: 1477px;*/
+    margin-top: 60px;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    font-size: 82px;
+    margin-left: 1161px;
+}
+
+.first button {
+
+    margin-left: 2326px;
+    margin-top: 219px;
+    width: 500px;
+    height: 142px;
+    font-size: 50px;
+    background-color: green;
+    color: white;
+
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+    transition: ease-in-out 0.5s;
+
+}
+
+.second h1 {
+    margin-top: 3em;
+    margin-left: 8em;
+    font-size: 272px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.logo1 {
+    height: 70rem;
+    width: 70rem;
+    /* border: 2px solid red; */
+    display: inline-block;
+    margin-top: 300px;
+    margin-left: 711px;
+    align-items: center;
+    background-color: aliceblue;
+    box-shadow: 10px 20px rgb(95, 92, 92);
+    border-radius: 73px;
+
+}
+
+.logo1:hover {
+    height: 60rem;
+    width: 60rem;
+
+}
+
+.logo2:hover {
+    height: 60rem;
+    width: 60rem;
+
+}
+
+.logo3:hover {
+    height: 60rem;
+    width: 60rem;
+
+}
+
+
+.logo2 {
+    height: 70rem;
+    width: 70rem;
+    /* border: 2px solid red; */
+    display: inline-block;
+    margin-top: 300px;
+    margin-left: 260px;
+    background-color: aliceblue;
+    border-radius: 73px;
+    box-shadow: 10px 20px rgb(95, 92, 92);
+
+
+}
+
+.logo3 {
+    height: 70rem;
+    width: 70rem;
+    /* border: 2px solid red; */
+    display: inline-block;
+    margin-top: 300px;
+    margin-left: 260px;
+    background-color: aliceblue;
+    border-radius: 73px;
+    box-shadow: 10px 20px rgb(95, 92, 92);
+
+
+
+}
+
+.logo1 img {
+    align-items: center;
+    margin-left: 260px;
+}
+
+.logo2 img {
+    align-items: center;
+    margin-left: 260px;
+}
+
+.logo3 img {
+    align-items: center;
+    text-align: center;
+    margin-left: 260px;
+}
+
+.logo1 h2 {
+    font-size: 88px;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+
+}
+
+.logo2 h2 {
+    font-size: 80px;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+
+}
+
+.logo3 h2 {
+    font-size: 80px;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+
+}
+
+.second p {
+    font-size: 67px;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+}
+
+.second button {
+    margin-top: 70px;
+    width: 251px;
+    height: 75px;
+    margin-left: 363px;
+    background-color: rgb(51, 116, 51);
+    font-size: 30px;
+    color: white;
+    border-radius: 20px;
+}
+
+.second button:hover {
+    background-color: white;
+    color: black;
+}
+
+
+/* this is third section */
+
+
+.image1 img {
+
+    margin-top: 9em;
+    width: auto;
+    height: 59em;
+    margin-left: 38rem;
+    border-radius: 47px;
+}
+
+.image1 {
+    height: 75em;
+    width: 263em;
+    border: 2px solid black;
+    margin-top: 14em;
+    margin-left: 59em;
+    border-radius: 60px;
+    background-color: aliceblue;
+    box-shadow: 10px 20px 40px rgb(95, 92, 92);
+    animation: sumit 2s 10 alternate;
+}
+
+@keyframes sumit {
+    from{
+      border-left-width: 266;
+    }to{
+        border-left-width: 240;
+        
+       
+    }
+}
+.pic1 {
+    margin-top: 9em;
+    width: 75em;
+    height: 59em;
+    margin-left: 38rem;
+    border-radius: 47px;
+    /* border: 2px solid black; */
+    border: 2px solid rgb(80, 168, 62);
+    display: inline-block;
+
+}
+
+.express {
+    margin-top: 9em;
+    width: 113em;
+    height: 59em;
+    margin-left: 13rem;
+    border-radius: 47px;
+    /* border: 2px solid black; */
+    display: inline-block;
+
+
+
+}
+
+.express p {
+    font-size: 123px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.pic1::before {
+    content: "";
+    position: absolute;
+    height: 59em;
+    width: 75em;
+    z-index: 1;
+    opacity: 1;
+    background: url("Veg\ Chowmein.jpg") no-repeat center center/cover;
+    border-radius: 47px;
+}
+
+.image2 {
+    height: 75em;
+    width: 263em;
+    border: 2px solid black;
+    margin-top: 14em;
+    margin-left: 6em;
+    border-radius: 60px;
+    background-color: aliceblue;
+    box-shadow: 10px 20px 40px rgb(95, 92, 92);
+    /* animation: sumit 2s 10 alternate; */
+}
+
+/* .express2{
+    margin-top: 9em;
+    width: 113em;
+    height: 59em;
+    margin-left: 13rem;
+    border-radius: 47px;
+    border: 2px solid black;
+    display: inline-block; */
+
+
+
+
+.pic2::before {
+    content: "";
+    position: absolute;
+    height: 59em;
+    width: 75em;
+    z-index: 1;
+    opacity: 1;
+    background: url("image1.jpg") no-repeat center center/cover;
+    border-radius: 47px;
+}
+
+.pic2 {
+    margin-top: 9em;
+    width: 75em;
+    height: 59em;
+    margin-left: 12rem;
+    border-radius: 47px;
+    border: 2px solid black;
+    border: 2px solid rgb(80, 168, 62);
+    display: inline-block;
+
+}
+
+.express2 {
+
+
+    /* font-size: 123px; */
+    /* font-family: 'Dancing Script', cursive; */
+
+}
+
+.image3 {
+    height: 75em;
+    width: 263em;
+    border: 2px solid black;
+    margin-top: 14em;
+    margin-left: 48em;
+    border-radius: 60px;
+    background-color: aliceblue;
+    box-shadow: 10px 20px 40px rgb(95, 92, 92);
+    /* animation: sumit 2s 10 alternate; */
+}
+
+.pic3 {
+    margin-top: 9em;
+    width: 75em;
+    height: 59em;
+    margin-left: 38rem;
+    border-radius: 47px;
+    border: 2px solid black;
+    border: 2px solid rgb(80, 168, 62);
+    display: inline-block;
+
+}
+
+.pic3::before {
+    content: "";
+    position: absolute;
+    height: 59em;
+    width: 75em;
+    z-index: 1;
+    opacity: 1;
+    background: url("image2.jpg") no-repeat center center/cover;
+    border-radius: 47px;
+}
+
+.btn {
+    margin-left: 2124px;
+    margin-top: 219px;
+    width: 500px;
+    height: 142px;
+    font-size: 50px;
+    background-color: green;
+    color: white;
+}
+
+.fourth h1 {
+
+    font-size: 272px;
+    margin-top: 8em;
+    margin-left: 7em;
+    font-family: 'Dancing Script', cursive;
+}
+
+.contact {
+
+    margin-top: 19em;
+    margin-left: 90em;
+}
+
+.contact input {
+    height: 154px;
+    width: 32em;
+    margin: 52px;
+    font-size: 60px;
+    text-align: center;
+    border: 8px solid;
+}
+
+.btn1 {
+    margin-left: 2248px;
+    margin-top: 51px;
+    width: 500px;
+    height: 142px;
+    font-size: 50px;
+    background-color: green;
+    color: white;
+}
+
+
+/* for footer */
+
+
+.footer {
+
+
+    margin-top: 5rem;
+    height: 137rem;
+    background-color: rgb(70, 64, 64);
+}
+
+.finfo1 {
+    /* margin-left: 50rem; */
+    /* padding-top: 25rem; */
+    font-size: 93px;
+
+    /* border: 2px solid red; */
+    /* height: 1200px; */
+    color: white;
+    font-family: sans-serif;
+    /* width: 1235px; */
+}
+
+.finfo {
+
+    margin-left: 50rem;
+    padding-top: 25rem;
+    /* font-size: 93px; */
+
+    /* border: 2px solid red; */
+    height: 1428px;
+    width: 1235px;
+    font-family: sans-serif;
+
+}
+
+.finfo p {
+    font-size: 60px;
+    padding-top: 76px;
+    color: white;
+}
+
+.finfo2 {
+    font-size: 93px;
+    color: white;
+    padding-top: 216px;
+    font-family: sans-serif;
+
+}
+
+.help {
+
+    margin-left: 180rem;
+
+
+    /* border: 2px solid red; */
+    height: 1428px;
+    height: 1668px;
+    width: 1235px;
+    margin-top: -1651px;
+}
+
+.help p {
+    font-size: 60px;
+    padding-top: 76px;
+    color: white;
+
+}
+
+.finfo3 {
+
+
+    font-size: 93px;
+    color: white;
+    padding-top: 420px;
+    font-family: sans-serif;
+}
